@@ -28,7 +28,6 @@ from youtubesearchpython import VideosSearch
 fotoplay = "https://graph.org/file/673bd8e51c4fef00c2848.jpg"
 ngantri = "https://graph.org/file/673bd8e51c4fef00c2848.jpg"
 from JE313P import call_py, JE313P, client as Client
-owner = Config.OWNER_ID
 from JE313P.helpers.yt_dlp import bash
 from JE313P.helpers.chattitle import CHAT_TITLE
 from JE313P.helpers.queues import (
@@ -43,6 +42,7 @@ from Config import Config
 
 from JE313P.helpers.thumbnail import gen_thumb
 
+owner = Config.OWNER_ID
 
 def vcmention(user):
     full_name = get_display_name(user)

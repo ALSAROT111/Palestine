@@ -1,5 +1,6 @@
 from pytgcalls import StreamType
 from pytgcalls.types import Update
+from Config import *
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
 from pytgcalls.types.input_stream.quality import (
     HighQualityAudio,
@@ -38,8 +39,6 @@ from JE313P.helpers.queues import (
     pop_an_item,
 )
 from telethon import Button, events
-from Config import Config
-
 from JE313P.helpers.thumbnail import gen_thumb
 
 owner = Config.OWNER_ID

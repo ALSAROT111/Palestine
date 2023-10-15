@@ -23,12 +23,12 @@
         "SUPPORT": {
             "description": "ضع هنا معرف مجموعتك او قناتك بدون @",
             "required": false,
-            "value": "JEPTHONSUPPORT"
+            "value": "HunerThon"
         },
         "CHANNEL": {
             "description": "ضع معرف قناتك اذا اردت غير ذلك اتركها ",
             "required": false,
-            "value": "JEPTHON"
+            "value": "HunerThon"
         },
         "BOT_USERNAME": {
             "description": "هنا ضع معرف البوت بدون @",

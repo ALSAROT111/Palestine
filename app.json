@@ -1,15 +1,19 @@
 {
-    "name": "سورس هنترثون ميوزك",
+    "name": "سورس هانترثون ميوزك",
     "description": "سورس ميوزك لتشغيل الاغاني في المحادثات الصوتية .",
     "keywords": ["JEPTHON", "JEPTHON-MUSIC", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music", "telethon"],
     "repository": "",
   "stack": "container",
     "env": {
         "APP_ID": {
-            "description": "ضع هنا الايبي ايدي حساب المساعد"
-        },
+            "description": "لاتغيرها) ضع هنا الايبي ايدي حساب المساعد)"
+	    "required": false,
+            "value": "23308690"
+	},
         "API_HASH": {
-            "description": "ضع هنا الايبي هاش حساب المساعد"
+            "description": "لاتغيرها) ضع هنا الايبي هاش حساب المساعد)"
+	    "required": false,
+            "value": "0a64b7fb353afea42c8847bd5ae5c744"
         },
         "STRING_SESSION": {
             "description": "يرجى وضع كود سيشن تليثون (كود تيرمكس) للحساب المساعد هنا ",

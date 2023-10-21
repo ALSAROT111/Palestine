@@ -6,13 +6,11 @@
   "stack": "container",
     "env": {
         "APP_ID": {
-            "description": "لاتغيرها) ضع هنا الايبي ايدي حساب المساعد)"
-	    "required": false,
+            "description": "لاتغيرها) ضع هنا الايبي ايدي حساب المساعد)
             "value": "23308690"
 	},
         "API_HASH": {
             "description": "لاتغيرها) ضع هنا الايبي هاش حساب المساعد)"
-	    "required": false,
             "value": "0a64b7fb353afea42c8847bd5ae5c744"
         },
         "STRING_SESSION": {
